@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 @       IN      SOA     example.com. root.example.com. (
-                              2         ; Serial
+                              4         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -13,4 +13,5 @@ $TTL    604800
 @       IN      A       192.168.1.10
 @       IN      AAAA    ::1
 ns      IN      A       172.18.0.3
-songoku       IN      A 172.18.0.11        
+songoku       IN      A 172.18.0.11 
+songohanda IN TXT "hijo de songoku"       
